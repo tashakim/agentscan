@@ -10,6 +10,7 @@ import os
 from typing import Dict, Any, List
 import json
 import requests
+from datetime import datetime
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -100,7 +101,7 @@ class CustomPythonAgent:
         with open(checkpoint_file, 'w') as f:
             json.dump({
                 "conversation_history": self.conversation_history,
-                "timestamp": str(os.path.getmtime(checkpoint_file)) if os.path.exists(checkpoint_file) else "new"
+                "timestamp": datetime.now().isoformat()
             }, f, indent=2)
         
         logger.info(f"Checkpoint saved to {checkpoint_file}")
@@ -110,4 +111,3 @@ if __name__ == "__main__":
     agent = CustomPythonAgent()
     result = agent.chat_completion("What is Python?")
     print(result)
-
