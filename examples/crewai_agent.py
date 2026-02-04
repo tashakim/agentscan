@@ -1,7 +1,7 @@
 """
 Example: CrewAI Agent with Governance Patterns
 
-This demonstrates AgentScan analyzing a CrewAI-based agent.
+This demonstrates AnchorScan analyzing a CrewAI-based agent.
 CrewAI uses Crew and Agent classes for multi-agent orchestration.
 """
 

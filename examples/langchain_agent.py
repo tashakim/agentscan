@@ -1,7 +1,7 @@
 """
 Example: LangChain Agent with Governance Patterns
 
-This demonstrates AgentScan analyzing a LangChain-based agent.
+This demonstrates AnchorScan analyzing a LangChain-based agent.
 The analyzer detects governance patterns regardless of framework.
 """
 

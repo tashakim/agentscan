@@ -1,4 +1,4 @@
-# AgentScan Dependencies
+# AnchorScan Dependencies
 
 # Core
 rich>=13.0.0        # Beautiful terminal output

@@ -1,7 +1,7 @@
 """
 Example: Custom Python Agent with Governance Patterns
 
-This demonstrates AgentScan analyzing a custom Python agent.
+This demonstrates AnchorScan analyzing a custom Python agent.
 No specific framework - just Python code with AI/LLM patterns.
 """
 
@@ -10,7 +10,6 @@ import os
 from typing import Dict, Any, List
 import json
 import requests
-from datetime import datetime
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -101,7 +100,7 @@ class CustomPythonAgent:
         with open(checkpoint_file, 'w') as f:
             json.dump({
                 "conversation_history": self.conversation_history,
-                "timestamp": datetime.now().isoformat()
+                "timestamp": str(os.path.getmtime(checkpoint_file)) if os.path.exists(checkpoint_file) else "new"
             }, f, indent=2)
         
         logger.info(f"Checkpoint saved to {checkpoint_file}")

@@ -1,4 +1,4 @@
-# AgentScan
+# AnchorScan
 
 ## The Problem
 

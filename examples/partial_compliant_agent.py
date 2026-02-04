@@ -2,7 +2,7 @@
 Example: Partially Compliant AI Agent
 
 This agent has some governance infrastructure but significant gaps remain.
-It demonstrates partial pattern detection that AgentScan identifies.
+It demonstrates partial pattern detection that AnchorScan identifies.
 """
 
 import os

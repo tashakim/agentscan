@@ -1,7 +1,7 @@
 """
 Example: OpenAI Assistants API Agent with Governance Patterns
 
-This demonstrates AgentScan analyzing an OpenAI Assistants API agent.
+This demonstrates AnchorScan analyzing an OpenAI Assistants API agent.
 Uses beta.assistants and beta.threads modules.
 """
 

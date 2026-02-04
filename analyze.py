@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-AgentScan - Governance Pattern Scanner for AI Agent Code
+AnchorScan - Governance Pattern Scanner for AI Agent Code
 
 Detects governance-related code patterns (logging, error handling, secret management, etc.)
 using AST parsing. Reports only syntactically provable facts from source code.
@@ -21,7 +21,7 @@ from pathlib import Path
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent))
 
-from agentscan import scan, print_report, generate_markdown, generate_json, generate_html
+from anchor_scan import scan, print_report, generate_markdown, generate_json, generate_html
 
 
 def main():

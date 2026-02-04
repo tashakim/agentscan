@@ -1,4 +1,4 @@
 """
-AgentScan Test Suite
+AnchorScan Test Suite
 """
 

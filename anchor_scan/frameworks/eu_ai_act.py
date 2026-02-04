@@ -5,7 +5,7 @@ Based on Articles 53 and 55 requirements for General-Purpose AI (GPAI) systems.
 Enforcement begins August 2026.
 """
 
-from agentscan.models import Requirement, Severity
+from anchor_scan.models import Requirement, Severity
 
 
 EU_AI_ACT_REQUIREMENTS = [

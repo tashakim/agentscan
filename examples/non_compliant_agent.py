@@ -2,7 +2,7 @@
 Example: Non-Compliant AI Agent
 
 This is a basic agent with no governance infrastructure.
-Run AgentScan against this to see what's missing.
+Run AnchorScan against this to see what's missing.
 """
 
 from openai import OpenAI

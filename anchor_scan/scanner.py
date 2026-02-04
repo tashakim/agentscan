@@ -8,9 +8,9 @@ Only reports syntactically provable facts from source code.
 from pathlib import Path
 from typing import List, Optional
 
-from agentscan.ast_analyzer import ASTAnalyzer, Detection, PatternCheckResult
-from agentscan.pattern_checks import get_pattern_checks
-from agentscan.models import AnalysisReport, FrameworkResult
+from anchor_scan.ast_analyzer import ASTAnalyzer, Detection, PatternCheckResult
+from anchor_scan.pattern_checks import get_pattern_checks
+from anchor_scan.models import AnalysisReport, FrameworkResult
 
 
 class CodeScanner:
@@ -195,7 +195,7 @@ class CodeScanner:
             check_result = self.check_pattern(check_id, all_detections)
             
             # Convert PatternCheckResult to CheckResult for compatibility
-            from agentscan.models import CheckResult, Status, Requirement, Severity
+            from anchor_scan.models import CheckResult, Status, Requirement, Severity
             
             # Determine status based on detections
             if check_id == "secret_exposure":
@@ -242,7 +242,7 @@ class CodeScanner:
             )
             
             # Convert detections to evidence
-            from agentscan.models import Evidence
+            from anchor_scan.models import Evidence
             evidence = [
                 Evidence(
                     file_path=d.file_path,

@@ -5,7 +5,7 @@ Defines what we check, how we check it, and what we DON'T check.
 Each check is a provable fact about code structure, not a compliance claim.
 """
 
-from agentscan.ast_analyzer import PatternCheckResult
+from anchor_scan.ast_analyzer import PatternCheckResult
 
 
 def get_pattern_checks() -> dict:

@@ -11,7 +11,7 @@ Core Functions:
 - MANAGE: Implement controls and respond to risks
 """
 
-from agentscan.models import Requirement, Severity
+from anchor_scan.models import Requirement, Severity
 
 
 NIST_AI_RMF_REQUIREMENTS = [

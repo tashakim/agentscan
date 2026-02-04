@@ -1,7 +1,7 @@
 """
 Example: LangGraph Agent with Governance Patterns
 
-This demonstrates AgentScan analyzing a LangGraph-based agent.
+This demonstrates AnchorScan analyzing a LangGraph-based agent.
 LangGraph uses StateGraph for agent orchestration.
 """
 

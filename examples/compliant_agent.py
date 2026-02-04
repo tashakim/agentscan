@@ -2,7 +2,7 @@
 Example: Compliant AI Agent
 
 This agent demonstrates comprehensive governance infrastructure.
-It shows what AgentScan looks for in compliant systems.
+It shows what AnchorScan looks for in compliant systems.
 
 Note: This is a reference implementation. In production, you would use
 a dedicated governance infrastructure provider.

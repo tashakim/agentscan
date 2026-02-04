@@ -1,7 +1,7 @@
 """
 Example: Anthropic Claude API Agent with Governance Patterns
 
-This demonstrates AgentScan analyzing an Anthropic Claude API agent.
+This demonstrates AnchorScan analyzing an Anthropic Claude API agent.
 Uses anthropic library and Anthropic client.
 """
 
