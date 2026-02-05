@@ -8,15 +8,15 @@ IMPORTANT: AnchorScan detects SPECIFIC patterns we check for. Custom implementat
 or patterns not in our detection list may not be detected. See LIMITATIONS.md for details.
 """
 
-from anchor_scan.scanner import scan, CodeScanner
-from anchor_scan.models import (
+from anchorscan.scanner import scan, CodeScanner
+from anchorscan.models import (
     AnalysisReport, 
     FrameworkResult, 
     CheckResult,
     Status,
     Severity,
 )
-from anchor_scan.report import (
+from anchorscan.report import (
     print_report,
     generate_markdown,
     generate_json,

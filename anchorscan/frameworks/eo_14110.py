@@ -12,7 +12,7 @@ Key Requirements:
 - Cybersecurity standards
 """
 
-from anchor_scan.models import Requirement, Severity
+from anchorscan.models import Requirement, Severity
 
 
 EO_14110_REQUIREMENTS = [

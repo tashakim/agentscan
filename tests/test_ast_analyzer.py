@@ -5,7 +5,7 @@ This is a starter template - add more tests!
 """
 
 import pytest
-from anchor_scan.ast_analyzer import ASTAnalyzer, Detection
+from anchorscan.ast_analyzer import ASTAnalyzer, Detection
 
 
 class TestLoggingDetection:

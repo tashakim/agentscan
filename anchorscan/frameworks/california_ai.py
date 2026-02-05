@@ -9,7 +9,7 @@ State-level AI regulations from California, including:
 California is a leading state in AI regulation and often sets precedents for other states.
 """
 
-from anchor_scan.models import Requirement, Severity
+from anchorscan.models import Requirement, Severity
 
 
 CALIFORNIA_AI_REQUIREMENTS = [

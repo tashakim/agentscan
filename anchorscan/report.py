@@ -14,7 +14,7 @@ from rich.panel import Panel
 from rich.text import Text
 from rich import box
 
-from anchor_scan.models import AnalysisReport, Status, Severity, CheckResult
+from anchorscan.models import AnalysisReport, Status, Severity, CheckResult
 
 
 console = Console()

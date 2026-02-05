@@ -9,7 +9,7 @@ Based on industry frameworks including:
 These are voluntary but increasingly expected for frontier AI deployment.
 """
 
-from anchor_scan.models import Requirement, Severity
+from anchorscan.models import Requirement, Severity
 
 
 RSP_REQUIREMENTS = [

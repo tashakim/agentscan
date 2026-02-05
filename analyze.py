@@ -21,7 +21,7 @@ from pathlib import Path
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent))
 
-from anchor_scan import scan, print_report, generate_markdown, generate_json, generate_html
+from anchorscan import scan, print_report, generate_markdown, generate_json, generate_html
 
 
 def main():
